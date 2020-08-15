@@ -17,8 +17,8 @@ body,
 
 .navbar {
   margin: 0 auto;
-  background-color: transparent;
   z-index: 9;
+  background: linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
 }
 
 .nav-link,
@@ -26,42 +26,20 @@ body,
   color: white;
 }
 
-.name {
+.name-wufo {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 36px;
-  z-index: 9;
-  mix-blend-mode: overlay;
-  text-shadow: -8px 8px 10px black;
-}
-
-.banner {
-  width: 100%;
-  height: 36%;
-  background: linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
-  position: absolute;
-  top: 0;
-  transform: skewY(-10deg);
-  transform-origin: 0;
+  font-size: 60px;
+  text-shadow: -3px 3px 5px #A46DFF;
 }
 
 .main {
-  margin-top: 4%;
+  margin-top: 6%;
 }
 
 .caption-landing {
   color: white;
   font-weight: normal;
   z-index: 9;
-}
-
-.rounded {
-  box-shadow: -4px 4px 10px black;
-  transition: box-shadow 0.3s ease-in-out
-}
-
-.rounded:hover {
-  box-shadow: -6px 6px 15px black;
 }
 
 .team-name {
