@@ -85,8 +85,8 @@ body,
 }
 
 @media (min-width: 1280px) {
-  .nav-container {
-    margin: 0 20%;
+  .navbar {
+    width: 69%;
   }
 
   .name {
