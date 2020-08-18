@@ -37,6 +37,7 @@ body,
 
 .dropdown-item:hover, .pagelink:hover {
   color: #A46DFF;
+  text-decoration: none;
 }
 
 .carousel-item .img-fluid {
@@ -52,14 +53,14 @@ body,
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: bold;
-  text-shadow: -3px 3px 5px #5c23b4;
+  text-shadow: -3px 3px 3px #5c23b4;
   color: #ffffff;
   z-index: 9;
 }
 
 .caption-wufo {
   color: #ffffff;
-  text-shadow: -3px 3px 5px #5c23b4;
+  text-shadow: -3px 3px 3px #5c23b4;
 }
 
 .main {
@@ -112,15 +113,17 @@ body,
   }
 
   .wufo-logo {
-    width: 3%;
+    width: 30px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .wufo-logo {
+    width: 28px;
   }
 }
 
 @media (max-width: 1024px) {
-  .wufo-logo {
-    width: 30px;
-  }
-
   .carousel {
     margin-top: 5.5%;
     margin-left: 0;
@@ -163,6 +166,10 @@ body,
     margin-top: 13.5%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .carousel-item .img-fluid {
+    height: 150px;
   }
 
   .name-wufo {
