@@ -104,10 +104,6 @@ body,
     font-size: 36px;
   }
 
-  .carousel-item .img-fluid {
-    height: 650px;
-  }
-
   .main-text {
     top: 18%;
   }
@@ -120,6 +116,11 @@ body,
 @media (max-width: 1279px) {
   .wufo-logo {
     width: 28px;
+  }
+
+  .name-wufo {
+    font-size: 40px;
+    margin-top: 9%;
   }
 }
 
@@ -157,6 +158,13 @@ body,
   }
 }
 
+@media (max-width: 768px) {
+  .name-wufo {
+    font-size: 26px;
+    margin-top: 6%;
+  }
+}
+
 @media (max-width: 480px) {
   .wufo-logo {
     width: 25px;;
@@ -168,12 +176,8 @@ body,
     margin-right: 0;
   }
 
-  .carousel-item .img-fluid {
-    height: 150px;
-  }
-
   .name-wufo {
-    margin-top: -5%;
+    margin-top: -7%;
   }
 
   .desc {
