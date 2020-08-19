@@ -1,0 +1,26 @@
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #5c23b4;
+  z-index: 9;
+  margin-top: 60px;
+}
+
+.player {
+  padding: 20px 40px;
+  margin-top: 15px;
+}
+
+.roster-page {
+  padding: 15px 100px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.picture {
+  border-radius: 50%;
+}
