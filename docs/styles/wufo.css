@@ -97,7 +97,7 @@ body,
 
   .name-wufo {
     font-size: 75px;
-    margin-top: -1%;
+    margin-top: 2%;
   }
 
   .caption-wufo {
@@ -178,6 +178,10 @@ body,
 
   .name-wufo {
     margin-top: -7%;
+  }
+
+  .main {
+    margin-top: 5%;
   }
 
   .desc {
