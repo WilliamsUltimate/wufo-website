@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.page {
+  position: relative;
+  overflow: hidden;
+}
+
+body,
+.navbar-brand {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  margin: 0 auto;
+  z-index: 10;
+  background: linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
+}
+
+.nav-link,
+.navbar-brand {
+  color: white;
+}
+
+.dropdown-item, .pagelink {
+  color: #5c23b4;
+  transition: 0.3s ease-in-out;
+}
+
+.dropdown-item:hover, .pagelink:hover {
+  color: #A46DFF;
+  text-decoration: none;
+}
+
+.carousel-item .img-fluid {
+  width: auto;
+}
+
+.main-text {
+  position: absolute;
+  top: 7%;
+}
+
+.name-wufo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: -3px 3px 3px #5c23b4;
+  color: #ffffff;
+  z-index: 9;
+}
+
+.caption-wufo {
+  color: #ffffff;
+  text-shadow: -3px 3px 3px #5c23b4;
+}
+
+.main {
+  margin-top: 2%;
+}
+
+.list-group {
+  width: 100%;
+}
+
+.list-group-item {
+  transition: 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+  color: #A46DFF;
+  text-decoration: none;
+}
+
+.nav-link, .navbar-brand {
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: #fbff6b;
+  text-decoration: none;
+}
+
+@media (min-width: 1280px) {
+  .nav-container {
+    margin: 0 20%;
+  }
+
+  .name-wufo {
+    font-size: 75px;
+    margin-top: -1%;
+  }
+
+  .caption-wufo {
+    font-size: 36px;
+  }
+
+  .main-text {
+    top: 18%;
+  }
+
+  .wufo-logo {
+    width: 30px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .wufo-logo {
+    width: 28px;
+  }
+
+  .name-wufo {
+    font-size: 40px;
+    margin-top: 9%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel {
+    margin-top: 5.5%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .name-wufo {
+    font-size: 40px;
+    margin-top: 12%;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  .carousel {
+    margin-top: 6.65%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .name-wufo {
+    font-size: 26px;
+    margin-top: 12%;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .name-wufo {
+    font-size: 26px;
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 480px) {
+  .wufo-logo {
+    width: 25px;;
+  }
+
+  .carousel {
+    margin-top: 13.5%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .name-wufo {
+    margin-top: -7%;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+    border: none;
+  }
+
+  .dropdown-item {
+    color: #ffffff;
+  }
+
+  .tweets {
+    margin-top: 5%;
+  }
+}

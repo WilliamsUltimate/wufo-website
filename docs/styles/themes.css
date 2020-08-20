@@ -37,7 +37,7 @@ body,
 
 .banner {
   width: 100%;
-  height: 30%;
+  height: 36%;
   background: linear-gradient(45deg, #2F1C53, #A46DFF, #F6D1FD);
   position: absolute;
   top: 0;
@@ -57,10 +57,31 @@ body,
 
 .rounded {
   box-shadow: -4px 4px 10px black;
+  transition: box-shadow 0.3s ease-in-out
+}
+
+.rounded:hover {
+  box-shadow: -6px 6px 15px black;
 }
 
 .team-name {
   color: #2F1C85;
+  transition: 0.3s ease-in-out;
+}
+
+.team-name:hover {
+  color: #A46DFF;
+  text-decoration: none;
+}
+
+.nav-link, .navbar-brand {
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: #fbff6b;
+  text-decoration: none;
 }
 
 @media (min-width: 1280px) {
@@ -75,6 +96,12 @@ body,
 
 @media (min-width: 768px) {
   .banner {
-    height: 60.5%;
+    height: 54.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .caption-landing {
+    font-size: 18px;
   }
 }
