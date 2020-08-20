@@ -180,6 +180,10 @@ body,
     margin-top: -7%;
   }
 
+  .main {
+    margin-top: 5%;
+  }
+
   .desc {
     text-align: center;
   }
