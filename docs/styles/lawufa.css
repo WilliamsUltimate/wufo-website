@@ -1,0 +1,86 @@
+.main-text {
+  margin-top: 2%;
+}
+
+.lawufa-bg {
+  background-image: url(../assets/lawufapics/lawufateam.JPG);
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3.5%;
+}
+
+.gallery {
+  box-shadow: -5px 5px 5px gray;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+@media (max-width: 1279px) {
+  .name-wufo {
+    font-size: 40px;
+    margin-top: 12%;
+  }
+
+  .lawufa-bg {
+    height: 35vh;
+    margin-top: 4.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lawufa-bg {
+    height: 32vh;
+    margin-top: 5.5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .lawufa-bg {
+    height: 25vh;
+    margin-top: 6.5%;
+  }
+
+  .name-wufo {
+    margin-top: 14%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lawufa-bg {
+    height: 32vh;
+    margin-top: 7%;
+  }
+}
+
+@media (max-width: 767px) {
+  .morepics {
+    display: flex;
+    order: 1;
+  }
+
+  .tweets {
+    display: flex;
+    order: 2;
+  }
+
+  .gallery {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .name-wufo {
+    margin-top: -6%;
+  }
+
+  .lawufa-bg {
+    height: 22vh;
+    margin-top: 8%;
+  }
+
+  .main {
+    margin-top: 5%;
+  }
+}
