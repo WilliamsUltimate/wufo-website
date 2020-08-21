@@ -1,4 +1,4 @@
 # Williams College Ultimate Frisbee
-Our official website.
+Our official website featuring WUFO, La WUFA, and BUF!
 
-Check us out at https://williamsultimate.github.io/wufo-website/
+Check us out at https://williamsultimate.com
