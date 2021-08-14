@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <title>La WUFA | Roster</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/wufo.css">
-    <link rel="stylesheet" href="../styles/lawufa.css">
-    <link rel="stylesheet" href="../styles/roster.css">
-    <link rel="icon" href="../assets/lawufapics/lawufa.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
-  </head>
-  <body>
+import React from "react";
+
+function LawwufaRoster() {
+  return (
     <section class="page">
       <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid align-items-center nav-container flex-row">
-          <a href="../" class="navbar-brand"><img src="../assets/lawufapics/lawufa.png" alt="La WUFA Logo" class="wufo-logo"> La WUFA</a>
+          <a href="../" class="navbar-brand"><img src="../assets/lawufapics/lawufa.png" alt="La WUFA Logo" class="wufo-logo"/> La WUFA</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-right" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -31,7 +20,7 @@
               <li class="nav-item"><a class="nav-link" href="../pages/wufa">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="../pages/wufa-roster">Roster</a></li>
               <li class="nav-item"><a class="nav-link" target="_blank" href="https://forms.gle/GYFVgeb317w1YHLc9">Join</a></li>
-              <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.instagram.com/lifewithwufa/">Instagram</i></a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.instagram.com/lifewithwufa/"><i>Instagram</i></a></li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Explore
@@ -55,75 +44,73 @@
         <div class="row justify-content-center roster-page">
 
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Petra.png" alt="big P" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Petra.png" alt="big P" class="img-fluid picture"/>
             <h3>Petra "big P" Baldwin</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Isabel.jpeg" alt="Isabel" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Isabel.jpeg" alt="Isabel" class="img-fluid picture"/>
             <h3>Isabel Cushing</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Abby.jpeg" alt="4" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Abby.jpeg" alt="4" class="img-fluid picture"/>
             <h3>Abby "4" Fournier</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Madeline.png" alt="Sledge" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Madeline.png" alt="Sledge" class="img-fluid picture"/>
             <h3>Madeline "Sledge" Kaplan</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Afoma.jpeg" alt="roller" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Afoma.jpeg" alt="roller" class="img-fluid picture"/>
             <h3>Afoma "roller" Maduegbuna</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Clare.jpeg" alt="bean" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Clare.jpeg" alt="bean" class="img-fluid picture"/>
             <h3>Clare "bean" Rogowski</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Siri.jpeg" alt="digs" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Siri.jpeg" alt="digs" class="img-fluid picture"/>
             <h3>Siri "digs" Bohacek</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Alice-Henry.png" alt="Acron" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Alice-Henry.png" alt="Acron" class="img-fluid picture"/>
             <h3>Alice-Henry "Acorn" Carnell</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Victoria.png" alt="Sandfiddler" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Victoria.png" alt="Sandfiddler" class="img-fluid picture"/>
             <h3>Victoria "The Sandfiddler" Pysher</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Tula.jpeg" alt="Tula" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Tula.jpeg" alt="Tula" class="img-fluid picture"/>
             <h3>Tula Shapiro</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Ruby.png" alt="red" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Ruby.png" alt="red" class="img-fluid picture"/>
             <h3>Ruby "red" Gary</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Annika.jpeg" alt="Kofi" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Annika.jpeg" alt="Kofi" class="img-fluid picture"/>
             <h3>Annika "Kofi the Piglet" Harrington</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Nina.jpg" alt="Neens" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Nina.jpg" alt="Neens" class="img-fluid picture"/>
             <h3>Nina "Neens" Kolman</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Lauren.jpg" alt="Cuervo" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Lauren.jpg" alt="Cuervo" class="img-fluid picture"/>
             <h3>Lauren "Cuervo" Lynch</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Mila.jpeg" alt="Rome" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Mila.jpeg" alt="Rome" class="img-fluid picture"/>
             <h3>Mila "Rome" "claw" Nazareli</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/lawufapics/roster/Coco.jpeg" alt="puff" class="img-fluid picture">
+            <img src="../assets/lawufapics/roster/Coco.jpeg" alt="puff" class="img-fluid picture"/>
             <h3>Coco "puff" Rhum</h3>
           </div>
         </div>
       </div>
     </section>
+  );
+}
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
-  </body>
-</html>
+export default LawwufaRoster;

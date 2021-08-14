@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <title>WUFO | Roster</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/wufo.css">
-    <link rel="icon" href="../assets/wufopics/wufo.png">
-    <link rel="stylesheet" href="../styles/roster.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
-  </head>
-  <body>
+import React from "react";
+
+function WufoRoster() {
+  return (
     <section class="page">
       <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid align-items-center nav-container flex-row">
-          <a href="../" class="navbar-brand"><img src="../assets/wufopics/wufo.png" alt="WUFO Logo" class="wufo-logo"> WUFO</a>
+          <a href="../" class="navbar-brand"><img src="../assets/wufopics/wufo.png" alt="WUFO Logo" class="wufo-logo"/> WUFO</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-right" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
@@ -27,7 +17,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link" href="../pages/wufo">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="../wufo">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Roster</a></li>
               <li class="nav-item"><a class="nav-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfpHO556yjFaGIwy0DJh2aiabUO44tFaCCOvLZtDWk_5tP6cQ/viewform">Join</a></li>
               <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCvB2yy81USQ2uc0oCDPvBkg">YouTube</a></li>
@@ -36,8 +26,8 @@
                   Explore
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="../pages/wufa">La WUFA</a>
-                  <a class="dropdown-item" href="../pages/buf">BUF</a>
+                  <a class="dropdown-item" href="../lawufa">La WUFA</a>
+                  <a class="dropdown-item" href="../buf">BUF</a>
                 </div>
               </li>
             </ul>
@@ -53,11 +43,11 @@
         <div class="row justify-content-center roster-page">
 
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/simon.jpg" alt="SIIIMMMMMPPPPP" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/simon.jpg" alt="SIIIMMMMMPPPPP" class="img-fluid picture"/>
             <h3>Simon "Simp" Kessel</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/grinch.jpg" alt="He could probably sky God" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/grinch.jpg" alt="He could probably sky God" class="img-fluid picture"/>
             <h3>Kaizen "Grinch" Conroy</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
@@ -65,11 +55,11 @@
             <h3>Danny "Danny-O" Ortiz</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/ben.jpg" alt="Mr. Clean" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/ben.jpg" alt="Mr. Clean" class="img-fluid picture"/>
             <h3>Ben "EV" Siciliano</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/kerosene.jpg" alt="Honey Honey Honey" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/kerosene.jpg" alt="Honey Honey Honey" class="img-fluid picture"/>
             <h3>Nicholas "Kerosene" Servedio</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
@@ -85,52 +75,50 @@
             <h3>Jonah "Mike Jones" Tobin</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/malcolm.jpg" loading="lazy" alt="Fly like an eagle" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/malcolm.jpg" loading="lazy" alt="Fly like an eagle" class="img-fluid picture"/>
             <h3>Malcolm "Falcon" Bellairs</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/elijah.jpg" loading="lazy" alt="NOOOOB" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/elijah.jpg" loading="lazy" alt="NOOOOB" class="img-fluid picture"/>
             <h3>Elijah "Mo" Tamarchenko</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/gordon.jpg" loading="lazy" alt="$$$$$$$$" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/gordon.jpg" loading="lazy" alt="$$$$$$$$" class="img-fluid picture"/>
             <h3>Gordon "G" Elwood</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/jape.jpg" loading="lazy" alt="JUUL 3000" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/jape.jpg" loading="lazy" alt="JUUL 3000" class="img-fluid picture"/>
             <h3>Jacob "Jape" Posner</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/bern.jpg" loading="lazy" alt="Granny loves all of you" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/bern.jpg" loading="lazy" alt="Granny loves all of you" class="img-fluid picture"/>
             <h3>Nick "Bernice" Bern</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/harry.jpg" loading="lazy" alt="F#######CK" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/harry.jpg" loading="lazy" alt="F#######CK" class="img-fluid picture"/>
             <h3>Harry "Apron" Wilcox</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/cream.jpg" loading="lazy" alt="White Powder" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/cream.jpg" loading="lazy" alt="White Powder" class="img-fluid picture"/>
             <h3>Avery "CREAM" Hall</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/burrito.jpg" loading="lazy" alt="Cuddle Man himself" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/burrito.jpg" loading="lazy" alt="Cuddle Man himself" class="img-fluid picture"/>
             <h3>Rito "Burrito" Tanaka</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/age.jpg" loading="lazy" alt="GG" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/age.jpg" loading="lazy" alt="GG" class="img-fluid picture"/>
             <h3>Ajay "Age" Chatha</h3>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12 text-center player"accesskey="">
-            <img src="../assets/wufopics/roster/spout.jpg" loading="lazy" alt="Teapot" class="img-fluid picture">
+            <img src="../assets/wufopics/roster/spout.jpg" loading="lazy" alt="Teapot" class="img-fluid picture"/>
             <h3>Jacques "Spout" Lybarger-Martel</h3>
           </div>
 
         </div>
       </div>
-
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
     </section>
-  </body>
-</html>
+  );
+}
+
+export default WufoRoster;
