@@ -51,7 +51,7 @@ function Buf() {
         <div class="row justify-content-center align-items-center">
             <div class="col-md-8">
             <p class="desc">
-                <strong style="color: #5c23b4;">BUF</strong> (aka B-team, aka the Narwhals, aka the Williams
+                <strong style={{color: "#5c23b4;"}}>BUF</strong> (aka B-team, aka the Narwhals, aka the Williams
                 Chipotle Club) is WUF's low-commitment, high-fun, mixed (or all-gender) team. Unlike the A-teams,
                 we do not hold tryouts, and all of our events are always open to everyone! We are a great option
                 for people who love playing ultimate, and want to keep practicing and getting better, but don't
